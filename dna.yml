@@ -1,0 +1,9 @@
+---
+   neuron_name: "rss_reader"
+   author: "Kalliope project team"
+
+   minimum_kalliope_version: 0.4.0
+
+   tags:
+      - "rss feed"
+
