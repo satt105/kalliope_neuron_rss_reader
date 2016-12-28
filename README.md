@@ -6,7 +6,7 @@ This neuron access to a RSS feed and gives their items.
 
 ## Installation
 ```
-kalliope install --git-url "https://github.com/kalliope-project/kalliope_neuron_rss_reader.git"
+kalliope install --git-url https://github.com/kalliope-project/kalliope_neuron_rss_reader.git
 ```
 
 ## Options
