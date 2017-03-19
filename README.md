@@ -54,10 +54,8 @@ Here the content of the `en_rss.j2`
 ```
 Here's the news from {{ feed }}
 
-{% set count = 1 %}
 {% for item in items %}
-News {{ count }}. {{ item.title }}.
-{% set count = count + 1 %}
+    News {{ loop.index }}. {{ item.title }}.
 {% endfor %}
 ```
 ## Notes
